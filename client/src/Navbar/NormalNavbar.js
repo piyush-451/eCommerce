@@ -74,6 +74,12 @@ function NormalNavbar() {
                 Sign in
               </NavLink>
             </li>
+
+            <li className="nav-item">
+              <NavLink to="/signup" className="nav-link" aria-current="page">
+                Sign up
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>

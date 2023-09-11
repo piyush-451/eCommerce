@@ -33,11 +33,11 @@ function Signin() {
               localStorage.setItem("token", res.data);
               const {isAdmin} = decodeToken(res.data);
               localStorage.setItem("isAdmin",isAdmin)
-              alert("Successfully registered");
+              alert("Successfully logged in");
               navigate('/')
             } catch (error) {
               console.log(error);
-              alert("Registration Error");
+              alert("error login in");
             }
           }}
         >
